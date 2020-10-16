@@ -7,5 +7,4 @@ class PushWork():
         os.system("git commit -m " + str(sys.argv[0]))
         os.system("git push")
 
-
 PushWork.push()
